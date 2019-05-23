@@ -1,0 +1,15 @@
+id: migrate_csv_vocabulary
+label: 'Migrate vocabulary from the csv file'
+migration_group: migration
+source:
+  plugin: csv
+  path: 'modules/custom/migrate_csv/assets/csv/vocabulary.csv'
+  header_row_count: 1
+  keys:
+    - Title
+process:
+  vid: ID
+  name: Title
+  description: Description
+destination:
+  plugin: entity:taxonomy_vocabulary
