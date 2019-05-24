@@ -1,0 +1,15 @@
+uuid: 0cf669f3-fa83-46b3-9860-b0b7c0854f79
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - c11n_migrate
+_core:
+  default_config_hash: cDoKHCbV80ZsBCS31t834RT9JmQmfHiAU73QqM0SmEw
+id: c11n
+label: 'Custom migrations'
+description: 'Custom data migrations.'
+source_type: 'CSV files'
+module: null
+shared_configuration: null
